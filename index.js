@@ -38,7 +38,7 @@ function Pipefy(config) {
     log.setLevel(config.logLevel, false);
   }
 
-  var baseUrl = "https://app.pipefy.com/queries";
+  var baseUrl = "https://api.pipefy.com/graphql";
   var bearerToken = "Bearer " + config.accessToken;
 
   /**
